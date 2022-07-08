@@ -1,0 +1,180 @@
+
+
+/*                   README:
+
+Ho eseguito il codice con Mozilla Firefox sotto Linux (MX-19.4_x64 patito feo)
+
+
+*/
+
+
+table {
+  border: none;
+}
+
+table  {
+  border-collapse: separate;
+}
+
+
+table caption {
+  caption-side: bottom;
+  color: black;
+
+}
+
+
+table caption {
+  font-weight: bold;
+}
+
+
+td {
+  border: 1px solid blue;
+  width: 13em;
+  height: 2.4em;
+  background: #d2d2d2;
+  text-align: center;
+}
+
+tbody th {
+  vertical-align: text-top;
+  background: #d3d6d3;
+}
+
+
+table {
+   empty-cells: hide;
+   -moz-border-radius: 0.5em;
+   -webkit-border-radius: 0.5em;
+   border-radius: 0.5em;
+}
+
+
+body {
+  color: white;
+}
+
+
+.invisible td { 
+  border: 1px dashed; 
+  background: white;
+  border-color: black;
+}
+
+
+table thead {
+  background: #4F81BD;
+
+}
+
+thead th {
+    height: 3em;
+    border-style: outset;
+    border-color: #3B618E;
+    border-width: 2px;
+    empty-cells: hide;
+
+}
+
+/*su Mozilla Firefox la percezione di angolo arrotondato è molto ridotta
+su Google Chrome è più evidente ma in compenso Chrome non elimina alcune celle vuote */
+
+.outset th {
+  border-style: outset;
+  border-color: #3B618E;
+  border-width: 2px;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  empty-cells: hide;
+  box-shadow: 1px 1px black;
+}
+
+
+.bac th {
+  border-style: outset;
+  border-color: #5E4979;
+  border-width: 2px;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  empty-cells: hide;
+  box-shadow: 1px 1px black;
+  background: #4F81BD;
+}
+
+
+.bac td {
+  border-style: outset;
+  border-color: #5E4979;
+  border-width: 2px;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  empty-cells: hide;
+  box-shadow: 1px 1px black;
+  background: #8064A2;
+}
+
+.bacc td {
+  border-style: outset;
+  border-color: #5E4979;
+  border-width: 2px;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  empty-cells: hide;
+  box-shadow: 1px 1px black;
+  background: #9BBB59;
+}
+
+.bacc th {
+  border-style: outset;
+  border-color: #5E4979;
+  border-width: 2px;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  empty-cells: hide;
+  box-shadow:  1px 1px black;
+  background: #4F81BD;
+}
+
+.baccc td {
+  border-style: outset;
+  border-color: #3B618E;
+  border-width: 2px;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  empty-cells: hide;
+  box-shadow: 1px 1px black;
+  background: #4F81BD;
+}
+
+.baccc th {
+  border-style: outset;
+  border-color: #3B618E;
+  border-width: 2px;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  empty-cells: hide;
+  box-shadow:  1px 1px black;
+  background: #4F81BD;
+}
+
+
+
+.image{
+    position: relative;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
